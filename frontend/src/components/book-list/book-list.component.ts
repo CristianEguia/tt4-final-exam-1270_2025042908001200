@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { BookService, Book } from '../../services/book.service';
 
@@ -7,7 +6,6 @@ import { BookService, Book } from '../../services/book.service';
   templateUrl: './book-list.component.html'
 })
 export class BookListComponent implements OnInit {
-
   books: Book[] = [];
 
   constructor(private bookService: BookService) {}

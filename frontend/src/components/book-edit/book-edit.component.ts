@@ -7,7 +7,6 @@ import { BookService, Book } from '../../services/book.service';
   templateUrl: './book-edit.component.html'
 })
 export class BookEditComponent implements OnInit {
-
   book: Book = {
     id: 0,
     title: '',

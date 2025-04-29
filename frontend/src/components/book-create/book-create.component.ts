@@ -7,7 +7,6 @@ import { BookService, Book } from '../../services/book.service';
   templateUrl: './book-create.component.html'
 })
 export class BookCreateComponent {
-
   book: Book = {
     id: 0,
     title: '',
